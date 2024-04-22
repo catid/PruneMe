@@ -31,7 +31,7 @@ def main(model_path: str, dataset: str, dataset_column: str, batch_size: int, ma
                                             bnb_4bit_compute_dtype=torch.bfloat16)
     
     model = AutoModelForCausalLM.from_pretrained(model_path,  
-                                                 device_map="balanced_low_0", 
+                                                 device_map="sequential", 
                                                  quantization_config=quantization_config, 
                                                  output_hidden_states=True)
     
