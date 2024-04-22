@@ -50,5 +50,5 @@ huggingface-cli download meta-llama/Meta-Llama-3-70B-Instruct --local-dir Meta-L
 ```
 
 ```bash
-
+./prune_llama_70.sh
 ```
