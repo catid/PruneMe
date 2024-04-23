@@ -4,6 +4,6 @@ python ./compute_block_similarity/layer_similarity.py \
     --dataset_column "text" \
     --batch_size 1 \
     --max_length 8192 \
-    --layers_to_skip 8 \
+    --layers_to_skip 2 \
     --dataset_size 4000 \
     --dataset_subset "train" 
